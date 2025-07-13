@@ -1,0 +1,1 @@
+This repository contains a SystemVerilog implementation of an SPI protocol with a daisy-chained slave configuration. The RTL includes a master and two slaves communicating in LSB-first mode with chip-select logic and dual-edge data handling. A UVM-style testbench is used for verifying protocol timing, data consistency, and multi-device handshaking.
